@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+}
+
+.navbarHover {
+  @apply hover:underline decoration-indigo-500 decoration-4 underline-offset-8 duration-500;
+}
+
+.buttonHover {
+  @apply hover:bg-transparent hover:text-white duration-300 hover:border border-solid border-[#FF6363] divide-white;
+}
